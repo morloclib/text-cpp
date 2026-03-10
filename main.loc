@@ -3,6 +3,7 @@ module text-cpp (*)
 import text
 import root-cpp
 
+%inline
 source Cpp from "text.hpp"
     ( "morloc_split" as split
     , "morloc_lines" as lines
