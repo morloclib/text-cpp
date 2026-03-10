@@ -1,0 +1,11 @@
+name: text-cpp
+version: 0.1.0
+homepage: https://github.com/morloclib/text-cpp
+synopsis: C++ implementations for text operations
+description: C++ implementations for text operations
+category: data
+license: MIT
+author: "Zebulun Arendsee"
+maintainer: "z@morloc.io"
+github: https://github.com/morloclib/text-cpp
+bug-reports: https://github.com/morloclib/text-cpp

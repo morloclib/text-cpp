@@ -1,0 +1,4 @@
+module test-text-cpp (test)
+
+import text.test (test)
+import text-cpp

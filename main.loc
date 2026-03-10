@@ -1,0 +1,27 @@
+module text-cpp (*)
+
+import text
+import root-cpp
+
+source Cpp from "text.hpp"
+    ( "morloc_split" as split
+    , "morloc_lines" as lines
+    , "morloc_words" as words
+    , "morloc_chars" as chars
+    , "morloc_join" as join
+    , "morloc_unlines" as unlines
+    , "morloc_unwords" as unwords
+    , "morloc_contains" as contains
+    , "morloc_startsWith" as startsWith
+    , "morloc_endsWith" as endsWith
+    , "morloc_toUpper" as toUpper
+    , "morloc_toLower" as toLower
+    , "morloc_trim" as trim
+    , "morloc_trimStart" as trimStart
+    , "morloc_trimEnd" as trimEnd
+    , "morloc_replace" as replace
+    , "morloc_replaceAll" as replaceAll
+    , "morloc_padLeft" as padLeft
+    , "morloc_padRight" as padRight
+    , "morloc_isBlank" as isBlank
+    )
